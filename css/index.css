@@ -1,0 +1,47 @@
+.arcade-1{
+    background: url(../assets/arcade-archives-vigilante-switch-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.arcade-2 {
+    background: url(../assets/pacman.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.arcade-3 {
+    background: url(../assets/space1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.row {
+    text-align: center;
+}
+.col-md-7 {
+    text-align: right;
+}
+.featurette-divider {
+    height: 400px;
+}
+.featurette-divider {
+    margin: 5rem 5%;
+}
+
+.where2 {
+    float: left !important;
+}
+.where {
+    text-align: left;
+}
+.container {
+    grid-template-columns: 6fr 1fr;
+    margin-top: 0%;
+    margin-bottom: 1rem;
+}

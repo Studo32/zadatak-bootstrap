@@ -1,0 +1,29 @@
+.container-fluid {
+    margin: 0px 0px 0px -25px;
+}
+.pomeri {
+    margin: 0px 60px 0px 0px;
+}
+.form-control {
+    background-color:#ced4da;
+    border-color: transparent;
+}
+.px-3 {
+    font-size: 1rem;
+}
+.nav-link {
+    font-size: 0.8rem;
+    text-decoration: white;
+}
+tr {
+    font-size: 15px;
+}
+.sidebar {
+    position: fixed;
+    top: 200px;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 48px 0 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}

@@ -1,0 +1,47 @@
+.jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: #fff;
+    border-radius: 3rem;
+}
+.jumbotron .container {
+    max-width: 40rem;
+}
+.container {
+    max-width: 1140xp;
+}
+.card {
+    width: 350px;
+    height: 385.2px;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.col-md-4 {
+    width: 380px;
+    height: 409.2px;
+}
+.lepse {
+    width: 1140px;
+    height: 1227.8px;
+    margin: -10px 0px 0px 89px;
+}
+.card-body {
+    background-color: black;
+}
+.card-text {
+    color: white;
+}
+.btn {
+    color: white;
+}
+.container-fluid {
+    margin: 0px 0px 0px -25px;
+}
+.pomeri {
+    margin: 0px 60px 0px 0px;
+}

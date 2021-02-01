@@ -1,34 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
-     rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="../zadatak-bootstrap/boostrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <title>Arcade Games</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Drvoseca</a>
+        <a class="navbar-brand" href="#">Arcade</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Album.html">Album</a>
-            </li>
-            <li class="nav-item dropdown">
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+              <a class="nav-link" href="album.html">Album</a>
             </li>
             <li class="nav-item">
-              <!--<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>-->
+              <a class="nav-link" href="dashboard.html">Dashboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product.html">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="404.html">404</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sign-in.html">Sign In</a>
             </li>
           </ul>
           <form class="d-flex">
@@ -38,8 +40,149 @@
         </div>
       </div>
     </nav>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
+    <!-- CAROUSEL Template -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+      </ol>
+
+      <!-- OGRANICITI VISINU CELIH ELEMENTTA 
+           MOZE BITI DA TREBA SAMO DODATI KLASU PORED carousel-inner
+           A MOZE BITI I DA MORA DA SE PRAVI POSEBNO KLASA ZA SVAKU SLIKU SA width i height property -->
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="d-block w-100 arcade-1"></div>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Vigilante</h5>
+            <p>Game full of combat.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-block w-100 arcade-2"></div>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Pac-Man</h5>
+            <p>Most old school game.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-block w-100 arcade-3"></div>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Galaga</h5>
+            <p>Epic shoter game.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+    <br>
+    <br>
+     <!-- CAROUSEL Template END -->
+     <div class="row">
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" src="../zadatak-bootstrap/assets/pacman.jpg" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777"></rect>
+          <text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+
+        <h2>Pac-Man</h2>
+        <p>Pac-Man[a] is a maze arcade game developed and released by Namco in 1980.
+           The original Japanese title 
+          of Puck Man was changed to Pac-Man for international releases as a preventative measure against defacement of the arcade machines by changing the P to an F.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+      </div>
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" src="../zadatak-bootstrap/assets/space1.jpg" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img"  aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777"></rect>
+          <text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+        <h2>Galaga</h2>
+        <p>Galaga is a 1981 fixed shooter arcade game developed and published by Namco.
+           In North America, it was released by Midway Games. It is the sequel to Galaxian (1979)</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+      </div>
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" src="../zadatak-bootstrap/assets/arcade-archives-vigilante-switch-hero.jpg" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777"></rect>
+          <text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+
+        <h2>Vigilante</h2>
+        <p>Vigilante is a 1988 beat 'em up arcade game developed and published by Irem in Japan and Europe and published in North America by Data East.
+           It is considered as a spiritual sequel to Irem's earlier Kung-Fu Master. </p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+      </div>
+    </div>
+     <!--End of this circule images-->
+     <!--First wiki-->
+     <hr class="featurette-divider">
+     <div class="container-in-row">
+     <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Stuff from wiki. <span class="text-muted">Crazy stuff.</span></h2>
+        <p class="lead">The development of the game began in early 1979, directed by Toru Iwatani with a nine-man team. Iwatani wanted to create a game that could appeal to women as well as men, because most video games of the time had themes of war or sports. Although the inspiration for the Pac-Man character was, reportedly, the image of a pizza with a slice removed, Iwatani has said he also rounded out the Japanese character for mouth, kuchi.The in-game characters were made to be cute and colorful to appeal to younger players. The original Japanese title of Puckman was derived from the titular character's hockey-puck shape. </p>
+      </div>
+      <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="../zadatak-bootstrap/assets/pacman.jpg" width="400" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect>
+        <text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
+      </div>
+     </div>
+    </div>
+   
+
+    <!--second wiki-->
+    <hr class="featurette-divider">
+     <div class="container-in-row">
+     <div class="row featurette">
+      <div class="col-md-5 where2">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="../zadatak-bootstrap/assets/arcade-archives-vigilante-switch-hero.jpg" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect>
+        <text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img>
+      </div>
+      <div class="col-md-7">
+        <div class="where">
+        <h2 class="featurette-heading">Stuff from wiki. <span class="text-muted">Crazy stuff.</span></h2>
+        <p class="lead">Players control the titular character using punches and kicks to defeat the Skinheads in a 2D platform manner, while sometimes picking up and using nunchaku against them.
+           If players get hurt while holding nunchuku, they become unarmed. There are five stages in order of appearance: a street, a junkyard, the Brooklyn Bridge, a back street scene and on top of a building that is under construction. Skinheads with Mohawk or spiked hairdo attack the vigilante with knives, chains, motorbikes, rifles and other kinds of weapons.
+           They will also cling to him if he stands too close to them. </p>
+        </div>
+      </div>
+     </div>
+    </div>
+    <hr class="featurette-divider">
+
+    <!--3 Wiki-->
+    <div class="container-in-row">
+      <div class="row featurette">
+       <div class="col-md-7">
+         <h2 class="featurette-heading">Stuff from wiki. <span class="text-muted">Crazy stuff.</span></h2>
+         <p class="lead">Shigeru Yokoyama led development with a small team. Initial planning took about two months to finish. Originally developed for the Namco Galaxian arcade board, it was instead shifted to a new system as suggested by Namco's Research and Development division. Inspiration for the dual fighter mechanic was taken from a film that Yokoyama had seen prior to development, where a ship was captured using a large circular beam. The project became immensely popular around the company, with Namco's president Masaya Nakamura even taking interest.  </p>
+       </div>
+       <div class="col-5">
+         <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="../zadatak-bootstrap/assets/space1.jpg" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+         <title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect>
+         <text x="50%" y="50%" fill="#aaa" dy=".3em"></text></img></div>
+       </div>
+      </div>
+     </div>
+
+     <hr class="featurette-divider">
+     <!--ending footer-->
+     <footer class="container">
+      <p class="">© 2017-2020 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+      <p class="float-end"><a href="#">Back to top</a></p>
+    </footer>
+    <script src="../zadatak-bootstrap/boostrap/js/bootstrap.min.js"></script>
   </body>
-</html>
-    
+</html>  

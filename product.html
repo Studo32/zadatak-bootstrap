@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+ <html>
+     <head>
+        <link href="../zadatak-bootstrap/boostrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/product.css" rel="stylesheet">
+        <title>Product</title>
+     </head>
+     <body>
+             <!--New navbar with button-->
+      <header>
+        <div class="bg-dark collapse" id="navbarHeaderAlbum"  >
+          <div class="container">
+            <div class="row">
+              <div>
+      <!--Old NavBAr-->
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                  <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Arcade</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="album.html">Album</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="dashboard.html">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="product.html">Product</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="404.html">404</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="sign-in.html">Sign In</a>
+                        </li>
+                      </ul>
+                      <div class="pomeri">
+                      <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                       </form>
+                      </div>
+                    </div>
+                  </div>
+                </nav>
+        <!--End of old Navbar-->
+              </div>
+              <div class="col-sm-8 col-md-7 py-4">
+                <h4 class="text-white">About</h4>
+                <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+              </div>
+              <div class="col-sm-4 offset-md-1 py-4">
+                <h4 class="text-white">Contact</h4>
+                <ul class="list-unstyled">
+                  <li><a href="#" class="text-white">Follow on Twitter</a></li>
+                  <li><a href="#" class="text-white">Like on Facebook</a></li>
+                  <li><a href="#" class="text-white">Email me</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+          <div class="container d-flex justify-content-between">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+              <strong>Product</strong>
+            </a>
+            <button class="navbar-toggler collapsed" type="button" onclick="showNav()" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </div>
+      </header>
+      <!--End of New Navbar-->
+        <header class="site-header sticky-top py-1">
+            <nav class="container d-flex flex-column flex-md-row justify-content-between">
+              <a class="py-2" href="#" aria-label="Product">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
+              </a>
+              <a class="py-2 d-none d-md-inline-block" href="#">Tour</a>
+              <a class="py-2 d-none d-md-inline-block" href="#">Product</a>
+              <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
+              <a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>
+              <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
+              <a class="py-2 d-none d-md-inline-block" href="#">Pricing</a>
+              <a class="py-2 d-none d-md-inline-block" href="#">Cart</a>
+            </nav>
+          </header>
+          <!--Evryting that fucked up in main is here-->
+          <main>
+            <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+              <div class="col-md-5 p-lg-5 mx-auto my-5">
+                <h1 class="display-4 fw-normal">Punny headline</h1>
+                <p class="lead fw-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple’s marketing pages.</p>
+                <a class="btn btn-outline-secondary" href="#">Coming soon</a>
+              </div>
+              <div class="product-device shadow-sm d-none d-md-block"></div>
+              <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+            </div>
+            
+            <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+              <div class="bg-dark col-6 me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+                <div class="my-3 py-3">
+                  <h2 class="display-5">Another headline</h2>
+                  <p class="lead">And an even wittier subheading.</p>
+                </div>
+                <div class="bg-light shadow-sm mx-auto" style="width: 511.667px; height: 300px; border-radius: 21px 21px 0 0;"></div>
+              </div>
+              <div class="bg-light col-6 me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="my-3 p-3">
+                  <h2 class="display-5">Another headline</h2>
+                  <p class="lead">And an even wittier subheading.</p>
+                </div>
+                <div class="bg-dark shadow-sm mx-auto" style="width: 511.667px; height: 300px; border-radius: 21px 21px 0 0;"></div>
+              </div>
+            </div>
+          
+            <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+              <div class="bg-light col-6 me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="my-3 p-3">
+                  <h2 class="display-5">Another headline</h2>
+                  <p class="lead">And an even wittier subheading.</p>
+                </div>
+                <div class="bg-dark shadow-sm mx-auto" style="width: 511.667px; height: 300px; border-radius: 21px 21px 0 0;"></div>
+              </div>
+              <div class="bg-primary col-6 me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+                <div class="my-3 py-3">
+                  <h2 class="display-5">Another headline</h2>
+                  <p class="lead">And an even wittier subheading.</p>
+                </div>
+                <div class="bg-light shadow-sm mx-auto" style="width: 511.667px; height: 300px; border-radius: 21px 21px 0 0;"></div>
+              </div>
+            </div>
+          
+            <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+              <div class="bg-light col-6 me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="my-3 p-3">
+                  <h2 class="display-5">Another headline</h2>
+                  <p class="lead">And an even wittier subheading.</p>
+                </div>
+                <div class="bg-white shadow-sm mx-auto" style="width: 511.667px; height: 300px; border-radius: 21px 21px 0 0;"></div>
+              </div>
+              <div class="bg-light col-6 me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="my-3 py-3">
+                  <h2 class="display-5">Another headline</h2>
+                  <p class="lead">And an even wittier subheading.</p>
+                </div>
+                <div class="bg-white shadow-sm mx-auto" style="width: 511.667px; height: 300px; border-radius: 21px 21px 0 0;"></div>
+              </div>
+            </div>
+          
+            <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+              <div class="bg-light col-6 me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="my-3 p-3">
+                  <h2 class="display-5">Another headline</h2>
+                  <p class="lead">And an even wittier subheading.</p>
+                </div>
+                <div class="bg-white shadow-sm mx-auto" style="width: 511.667px; height: 300px; border-radius: 21px 21px 0 0;"></div>
+              </div>
+              <div class="bg-light col-6 me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="my-3 py-3">
+                  <h2 class="display-5">Another headline</h2>
+                  <p class="lead">And an even wittier subheading.</p>
+                </div>
+                <div class="bg-white shadow-sm mx-auto" style="width: 511.667px; height: 300px; border-radius: 21px 21px 0 0;"></div>
+              </div>
+            </div>
+            
+          </main>
+          <!--end of main-->
+          <footer class="container py-5">
+            <div class="row">
+              <div class="col-12 col-md">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
+                <small class="d-block mb-3 text-muted">© 2020-2021</small>
+              </div>
+              <div class="col-6 col-md">
+                <h5>Features</h5>
+                <ul class="list-unstyled text-small">
+                  <li><a class="link-secondary" href="#">Cool stuff</a></li>
+                  <li><a class="link-secondary" href="#">Random feature</a></li>
+                  <li><a class="link-secondary" href="#">Team feature</a></li>
+                  <li><a class="link-secondary" href="#">Stuff for developers</a></li>
+                  <li><a class="link-secondary" href="#">Another one</a></li>
+                  <li><a class="link-secondary" href="#">Last time</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-md">
+                <h5>Resources</h5>
+                <ul class="list-unstyled text-small">
+                  <li><a class="link-secondary" href="#">Resource name</a></li>
+                  <li><a class="link-secondary" href="#">Resource</a></li>
+                  <li><a class="link-secondary" href="#">Another resource</a></li>
+                  <li><a class="link-secondary" href="#">Final resource</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-md">
+                <h5>Resources</h5>
+                <ul class="list-unstyled text-small">
+                  <li><a class="link-secondary" href="#">Business</a></li>
+                  <li><a class="link-secondary" href="#">Education</a></li>
+                  <li><a class="link-secondary" href="#">Government</a></li>
+                  <li><a class="link-secondary" href="#">Gaming</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-md">
+                <h5>About</h5>
+                <ul class="list-unstyled text-small">
+                  <li><a class="link-secondary" href="#">Team</a></li>
+                  <li><a class="link-secondary" href="#">Locations</a></li>
+                  <li><a class="link-secondary" href="#">Privacy</a></li>
+                  <li><a class="link-secondary" href="#">Terms</a></li>
+                </ul>
+              </div>
+            </div>
+          </footer>
+          <!--Java scripts-->
+      <script src="../zadatak-bootstrap/boostrap/js/bootstrap.min.js"></script>
+      <script src="../zadatak-bootstrap/js/script.js"></script>
+     </body>
+ </html>
